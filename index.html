@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
-    <meta name="viewport" content="width-device-width, initial-scale-1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
-    <title>Chat</title>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav">
-        <div class="nav__logo">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/codeinstagespublic/o/assetsImages%2Flogo.png?alt=media&token=1fb2d78e-5e7f-4906-962e-beddf58b431b"
-            alt="ChatNet Logo"
-          />
-          <h3>ChatNet</h3>
-        </div>
-        <ul class="nav__items">
-          <li class="nav__item">
-            <a href="#" class="nav__link">Solutions</a>
-            <a href="#" class="nav__link">Features</a>
-            <a href="#" class="nav__link">Pricing</a>
-          </li>
-        </ul>
-        <button class="button">Login</button>
-      </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/styles.css">
+    <title>ChatNet</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo"><img src="https://firebasestorage.googleapis.com/v0/b/codeinstagespublic/o/assetsImages%2Flogo.png?alt=media&token=1fb2d78e-5e7f-4906-962e-beddf58b431b" alt="ChatNet Logo"><h3>ChatNet</h3></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Solutions</a></li>
+                <li class="nav-item"><a href="#">Features</a></li>
+                <li class="nav-item"><a href="#">Pricing</a></li>
+            </ul>
+            <button class="button">Login</button>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
-    <section class="content">
-      <div class="text">
-          <h1>Connect With
-            Your Costumers.</h1>
-          <p>ChatNet is a complete customer service platform that delights your customers and fuels your sales.</p>
-          <button>Get Started</button>
-      </div>
-      <!-- <div class="image">
-          <img src="./src/chat.png">
-      </div> -->
-  </section>
-  </body>
+    <main>
+        <section class="solutions">
+            <div class="solutions-text">
+                <h4 class="text-h4">Welcome ChatNet</h4>
+                <h1 class="text-h1">Connect With
+                    Your Costumers.</h1>
+                <p>ChatNet is a complete customer service platform that delights your customers and fuels your sales.</p>
+                <a href="#" class="solutions-btn">Get Started</a>
+            </div>
+            <div class="solutions-img">
+                <img src="src/chat.png" alt="chat">
+            </div>
+        </section>
+        <section class="Features">
+        </section>
+    </main>
+    <script src="./src/script.js"></script>
+</body>
 </html>
